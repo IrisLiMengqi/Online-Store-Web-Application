@@ -1,0 +1,4 @@
+## UML
+![UML](http://res.cloudinary.com/dhiat9kvf/image/upload/v1519504687/uml_xj6slr.jpg)
+## Description
+The relation are described as the UML diagram. There are three types of users derived from an abstract class User which contains basic profile information. For each type of user, there is a field of agreement to enable themselves privileges. Message class contain Description and Date fields. Storage class contains the product information we query from BestBuy API. Sellers can choose to add product from Storage to their own store and display to buyers, for convince, we allow buyers to produce product ID for chosen products. Order class contain fields such as Amount, Order Status and Order Number. Order status is made to an enum class, indicating status such as Unshipped, Shipped, Completed, Canceled. Item class record each chosen commodity by buyers, and its corresponding order. 
